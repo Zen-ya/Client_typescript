@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
-import ProfileUpdate from './Component/updat-pro.js'; 
+import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProfileUpdate />
+    <App />
   </React.StrictMode>
 );
 

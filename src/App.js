@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import {Register} from './Component/register';
+import {ProfileUpdate} from './Component/updat-pro'
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -13,8 +15,11 @@ function App() {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener nor
+          eferrer"
         >
+          <Register/>
+          <ProfileUpdate/>
           Learn React
         </a>
       </header>
